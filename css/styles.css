@@ -54,6 +54,20 @@ header #navbar .nav-list .nav-item a:hover {
   transition: color 0.3s;
 }
 
+header #navbar .hamburger-menu {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  header #navbar .hamburger-menu {
+    display: block;    
+  }
+  header #navbar .nav-list {
+    display: none;
+  }
+}
+
+
 /* SECTION BANNER */
 
 main {
