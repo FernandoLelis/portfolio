@@ -105,6 +105,7 @@ main #banner .banner-content .banner-content-btn {
   border-radius: 3px;
   padding: 8px 24px;
   border: none;
+  cursor: pointer;
 }
 
 main #banner .banner-image {
